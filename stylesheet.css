@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
