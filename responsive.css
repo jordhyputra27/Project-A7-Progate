@@ -6,6 +6,9 @@
   .heading h2{
     font-size:20px;
   }
+  .lesson-wrapper {
+    padding-bottom:1000px;
+  }
   .lesson{
     width:50%;
     margin-bottom:50px;
@@ -26,7 +29,7 @@
   }
   .checkbtn {
     display: block;
-    font-size: 30px;
+    font-size: 25px;
     float:right;
     line-height: 30px;
     margin-right: 40px;
@@ -116,5 +119,21 @@
     margin-top:1px;
     padding:7px;
     font-size:12px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .container {
+    height:250px;
+  }
+  .lesson-wrapper {
+    padding-bottom: 680px;
+  }
+  .txt-contents {
+    font-size: 11px;
+  }
+  .message-wrapper {
+    height:200px;
+    padding-bottom: 0;
   }
 }
